@@ -82,11 +82,11 @@ section {
     align-items: center;
 }
 
-.img-hero {
-   object-fit: cover;
-    width: 180px;
-    height: 600px;
-    border-radius: 12px;
+.img-hero{
+    width:100%;
+    height:600px;
+    object-fit:cover;
+    border-radius:12px;
 }
 
 .carousel-control-prev-icon,
