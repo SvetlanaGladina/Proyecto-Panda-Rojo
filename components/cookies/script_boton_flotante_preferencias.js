@@ -4,7 +4,7 @@ floatingBtn.innerHTML = `
     <img
         src="assets/premium_photo-1722696650718-65e6a7692402.avif"
         alt="Configuración"
-        style="width:30px;height:30px;border-radius:50%;padding-top:10px;padding-left:10px;">
+        style="width:30px;height:30px;border-radius:50%;padding-top:30px;padding-right:30px;">
 `;
 floatingBtn.style.cssText = `
     position: fixed;
