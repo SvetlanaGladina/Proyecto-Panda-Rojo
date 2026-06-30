@@ -13,32 +13,6 @@ floatingBtn.innerHTML = `
         ">
 `;
 
-
-// floatingBtn.innerHTML = `
-//     <img
-//         src="assets/premium_photo-1722696650718-65e6a7692402.avif"
-//         alt="Configuración"
-//         style="width:30px;height:30px;border-radius:50%;padding-top:30px;padding-right:30px;">
-// `;
-// floatingBtn.style.cssText = `
-//     position: fixed;
-//     bottom: 20px;
-//     left: 20px;
-//     width: 50px;
-//     height: 50px;
-//     border-radius: 50%;
-//     background: transparent;
-//     border: none;
-//     padding: 0;
-//     color: white;
-//     cursor: pointer;
-//     z-index: 1000;
-//     display: none;
-//     font-size: 24px;
-//     box-shadow: 0 4px 12px rgba(0,0,0,0.2);
-//     transition: transform 0.2s ease;
-// `;
-
 floatingBtn.style.cssText = `
     position: fixed;
     bottom: 20px;
