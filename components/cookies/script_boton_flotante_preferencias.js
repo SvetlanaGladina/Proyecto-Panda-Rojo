@@ -8,8 +8,8 @@ floatingBtn.innerHTML = `
 `;
 floatingBtn.style.cssText = `
     position: fixed;
-    bottom: 20px;
-    left: 20px;
+    bottom: 25px;
+    left: 25px;
     width: 50px;
     height: 50px;
     border-radius: 50%;
