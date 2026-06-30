@@ -1,6 +1,11 @@
 // Añadir un botón flotante para cambiar preferencias después de aceptar
 const floatingBtn = document.createElement('button');
-floatingBtn.innerHTML = '<img src="assets/images/favicon.png">';
+floatingBtn.innerHTML = `
+    <img
+        src="assets/premium_photo-1722696650718-65e6a7692402.avif"
+        alt="Configuración"
+        style="width:30px;height:30px;border-radius:50%;">
+`;
 floatingBtn.style.cssText = `
     position: fixed;
     bottom: 20px;
@@ -8,9 +13,10 @@ floatingBtn.style.cssText = `
     width: 50px;
     height: 50px;
     border-radius: 50%;
-    background: #dc3545;
-    color: white;
+    background: transparent;
     border: none;
+    padding: 0;
+    color: white;
     cursor: pointer;
     z-index: 1000;
     display: none;
